@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+     <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          <title>SPYDER || {{ title }}</title>
+          <link rel="stylesheet" href="https://spyder.epicofjs.com/main.css">
+          <link rel="stylesheet" href="/css/this.css">
+     </head>
+     <body class="">
+          <div class="alert-container">
+             {{>msg}}
+         </div>
+          {{>nav}}
+         <div class="row space-a mt-10">
+             <div class="col-6 col-8-md col-10-sm col-12-xs">
+                 <div class="card">
+                     <div class="card-body mt-2">
+                          {{{body}}}
+                     </div>
+                 </div>
+             </div>
+         </div>
+          <script src="https://spyder.epicofjs.com/main.js"></script>
+          <script src="/js/this.js"></script>
+     </body>
+</html>
